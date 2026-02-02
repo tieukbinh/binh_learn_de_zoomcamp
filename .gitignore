@@ -9,5 +9,6 @@ wheels/
 # Virtual environments
 .venv
 
-#output
+#data files
+*.csv
 *.parquet
