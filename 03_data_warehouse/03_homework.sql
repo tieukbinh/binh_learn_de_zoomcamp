@@ -2,7 +2,7 @@
 CREATE OR REPLACE EXTERNAL TABLE de-zoomcamp-2026-486710.ny_taxi.external_yellow_tripdata
 OPTIONS (
   format = 'PARQUET',
-  uris = ['gs://dezoomcamp_ny_taxi/yellow_taxi/yellow_tripdata_2024-*.parquet']
+  uris = ['gs://dezoomcamp-ny-taxi-0119/yellow_tripdata_2024-*.parquet']
 );
 
 --Create native table of yellow taxi
