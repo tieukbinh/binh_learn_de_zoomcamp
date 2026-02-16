@@ -11,6 +11,7 @@ wheels/
 
 #data files
 *.csv
+*.csv.gz
 *.parquet
 
 #Credentials & keys
